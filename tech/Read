@@ -1,0 +1,38 @@
+## Machine learning
+
+1. Try LLAMA in apple silicon 
+    
+    https://github.com/ml-explore/mlx-examples/tree/main/llms/llama
+    
+    I dont know what I did, but this is generating chat text
+    
+    https://huggingface.co/mlx-community/Llama-2-7b-chat-4-bit
+    
+
+## Papers
+
+1. https://www.cloud-conf.net/ispa2021/proc/pdfs/ISPA-BDCloud-SocialCom-SustainCom2021-3mkuIWCJVSdKJpBYM7KEKW/264600a177/264600a177.pdf - erasure coding
+2. https://arxiv.org/pdf/1810.04805.pdfz
+3. https://www.usenix.org/system/files/atc23-brooker.pdf - on demand container loading.
+
+## Today
+
+1. Video - https://developers.google.com/machine-learning/crash-course/descending-into-ml/video-lecture
+
+## VIM Commands
+
+1. https://vim.rtorr.com/
+2. https://vimtricks.com/
+3. Useful commands from vim tricks
+    1. gg=gG - Reindent entire file
+    2. g_lD - delete all trailing spaces
+    3. yapP - copy/paste entire paragaraph
+    4. da” - PLEASE note this this will delete next double quoted string
+    5. vaw - visually select a word
+    6. dap/yap/vap - entire paragraph
+    7. =%p - reindent from current line to entire paragraph
+    8. =ap - renindent entire paragraph
+    9. <Ctrl-o> - move back to  previous location
+    10. <Ctril-I> - move to newer jump
+    11. /\%Vfoobar - will search in visual selection (should select lines in v mode first)
+    12. reselect last yanked/pasted text - gp (new command)
