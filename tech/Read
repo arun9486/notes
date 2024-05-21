@@ -24,15 +24,37 @@
 1. https://vim.rtorr.com/
 2. https://vimtricks.com/
 3. Useful commands from vim tricks
-    1. gg=gG - Reindent entire file
-    2. g_lD - delete all trailing spaces
-    3. yapP - copy/paste entire paragaraph
-    4. da” - PLEASE note this this will delete next double quoted string
-    5. vaw - visually select a word
-    6. dap/yap/vap - entire paragraph
-    7. =%p - reindent from current line to entire paragraph
-    8. =ap - renindent entire paragraph
-    9. <Ctrl-o> - move back to  previous location
-    10. <Ctril-I> - move to newer jump
-    11. /\%Vfoobar - will search in visual selection (should select lines in v mode first)
-    12. reselect last yanked/pasted text - gp (new command)
+    * gg=gG - Reindent entire file
+    * g_lD - delete all trailing spaces
+    * yapP - copy/paste entire paragaraph
+    * da” - PLEASE note this this will delete next double quoted string
+    * vaw - visually select a word
+    * dap/yap/vap - entire paragraph
+    * =%p - reindent from current line to entire paragraph
+    * =ap - renindent entire paragraph
+    * <Ctrl-o> - move back to  previous location
+    * <Ctril-I> - move to newer jump
+    * /\%Vfoobar - will search in visual selection (should select lines in v mode first)
+    * reselect last yanked/pasted text - gp (new plugin)
+    * gc - comment code (new pluging)
+    * ~, u, U - toggle the case
+    * :reg - show current values of registers
+    * casw"  - example of surround plugin
+    * :<line number>yank - yanks line number
+    * <line number>copy(or t). - copy line number and paste below current cursor
+    * gn - searches for last searched word and visually selects it. Append with c to delete it and enter insert mode
+    * gsa) - sort list with brackets, gsi{ - with brackets (new plugin)
+    * * - is the register which copies to clipboard (example "*y copies to clipboard)
+    * xp - swap characters (Hello world - xp on l)
+    
+
+    
+
+
+
+
+
+     
+
+
+
